@@ -1,0 +1,48 @@
+/*Mobile first*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.row > div{
+    font-size: 1.2em;
+}
+.col{
+    background-color: gray;
+    margin-bottom: 20px;
+    border: 5px solid black;
+}
+.col-title{
+    background-color: greenyellow;
+    outline: 5px solid black;
+    padding: 10px;
+    float: right;
+    margin-top: 0;
+}
+.description{
+    clear: right;
+    padding: 20px;
+}
+/*Tablet version*/
+@media (min-width: 768px) and (max-width: 991px){
+    .row{
+        text-align: center;
+    }
+    .col:nth-child(1),.col:nth-child(2){
+        display: inline-block;
+        width: 48.3%;
+    }
+}
+/*Desktop version*/
+@media(min-width: 992px){
+    .row{
+        text-align: center;
+    }
+    .col{
+        display: inline-block;
+        width: 30%;
+    }
+}
