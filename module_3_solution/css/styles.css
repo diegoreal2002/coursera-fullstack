@@ -1,0 +1,33 @@
+.navbar-list{
+    text-align: center;
+}
+.nav-item a{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+#navbarSupportedContent{
+    background-color: rgb(88, 88, 88);
+}
+.navbar-container{
+    padding-bottom: 0;
+}
+.navbar > div{
+    padding-bottom: 10px;
+}
+.section-title{
+    font-weight: bolder;
+}
+.col{
+    background-color: gray;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+@media (min-width: 576px) {
+    .navbar-ul{
+        display: none;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+}
